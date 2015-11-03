@@ -1,0 +1,20 @@
+div{
+	background-image:url(http://i.imgur.com/rJ6LMZz.jpg);
+	height:960px;
+	width: 866px
+}
+
+h1{
+	font-size: 75px;
+	letter-spacing: 3px;
+	font-family:Helvetica;
+	text-shadow: 20px 20px 0px white
+}
+
+h2{
+	font-size:100px;
+	letter-spacing: 5px;-	font-family: helvetica;
+	text-shadow: 20px 20px 0px black;
+	color:white;
+	border-bottom: solid white 10px;
+}

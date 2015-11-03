@@ -1,0 +1,41 @@
+//div id = div 1
+//div id = div2
+//div 2 hidden
+//div one on click make div 2 appear.
+
+
+//Learn jQuery
+//Learn AJAX
+	//Create a Local Server
+//Learn how to make jquery intearct with content brought in from AJAX
+//learn CSS concepts like responsive, fluid
+//Learn Bootstrap
+//Practice Command
+//Make Micro-project
+
+//Practice week of 2nd-6th
+
+TK20
+
+
+
+$("#div1").click(function{
+	$("#div1").hide();
+	$("#div2").show();
+});
+
+let lessThanThree = (Math.random * 6) < 3 ? "Yep!" : "Not This Time!";
+
+let firstCheck = false;
+let secondCheck = false;
+let passwordCheck = firstCheck ? "Wrong Password" : secondCheck ? "Wrong Password" : "Access Granted";
+
+let dayOfWeek = "Wednesday";
+
+let isItHumpDay = dayOfWeek === "Wednesday" ? "It's Hump Day! Get Back to Work" : "Get Back to Work";
+
+console.log(isItHumpDay);
+
+let dayOfWeek = "Sunday";
+
+console.log(isItHumpDay);

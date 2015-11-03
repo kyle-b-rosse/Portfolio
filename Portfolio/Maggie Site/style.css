@@ -1,0 +1,60 @@
+html,
+body {
+
+  background: url(cookies2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0px;
+
+}
+
+.container{
+
+	width: 97%;
+	height: 97%;
+	position: absolute;
+	overflow: auto;
+	
+}
+
+.words {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  height: 70%;
+  background-color: #ffffff;
+
+  opacity: 0.6;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', Helvetica, sans-serif; 
+	font-size: 3em;
+}
+
+h3,
+p {
+	text-align: center;
+	font-family: 'Raleway', Helvetica, sans-serif; 
+	font-size: 2em;
+}
+
+h3 {
+	padding-top: 40px;
+}
+
+p {
+	padding-top: 60px;
+	
+}

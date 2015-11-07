@@ -1,0 +1,80 @@
+html { 
+  background: url(images/kyleCar.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+	color: #FF5722;
+	padding-left: 4%;
+	margin-top: 5%;
+	font-size: 76px;
+	text-shadow: 1px 2px #FFB74D;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navCont{
+	display: inline-block;
+	width:100%;
+
+	margin-top:8%;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav-left{
+	float:left;
+	width:100%;
+	color:white;
+
+
+	font-size: .65em;
+	height:40px;
+	overflow: hidden;
+}
+
+
+
+
+
+.nav-left li {
+	display: inline-block;
+
+	padding: 0 25px;
+	font-size: 24px;
+
+	font-weight: bold;
+}
+
+.nav-left li a {
+	text-decoration: none;
+	color: #E0E0E0;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.nav-left li a:hover{
+	color: #FAFAFA;
+	opacity: 0.1;
+}
+
+.nav-left li:hover{
+	background-color: rgba(224,224,224 .9);
+}
+
+
+@media screen and (max-width: 600px) {
+  .title_list{
+  	padding:0;
+
+  }
+
+  .nev-left li {	
+    font-size:32px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

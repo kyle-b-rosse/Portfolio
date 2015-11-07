@@ -1,0 +1,176 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+html {
+  box-sizing: border-box;
+  background-color: #2E7D32;
+}
+
+.container{
+	border: solid 10px black;
+	width: 99%;
+	height: 98%;
+	position: absolute;
+	overflow: auto;
+	
+}
+
+.title{
+ text-align: center;
+ font-size: 76px;
+ font-family: 'Oswald', sans-serif;
+
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+
+.links {
+  flex: 1;
+} 
+
+.icon {
+	border: solid 10px black;
+	margin-top: 5%;
+	height: 75px;
+	width: 450px;
+	margin-left: 10%;
+	margin-right: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.3em;
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+.icon:hover{
+	background-color: #EF6C00
+}
+
+.madison{
+	font-size: 2em;
+	padding-top: 5px;
+}
+
+.glm {
+	font-size: 1.7em;
+	padding-top: 7px;
+}
+
+
+#stuff-1{
+	border: solid 10px black;
+	margin-top: 5%;
+	height: 75px;
+	width: 450px;
+	margin-left: 10%;
+	margin-right: 2%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 3px;
+
+}
+#stuff-1,
+#stuff-2{
+	width: 500px;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width:  1200px) {
+    .icon {
+	width: 100%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+    }
+}
+
+#stuff-1 {
+	margin-left: 30%
+}
+
+#stuff-2 {
+	margin-left: 30%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	.container{
+		position: static;
+		padding-bottom: 1%;
+		border-right:-5px;
+	}
+
+	.icon {
+	width: 100%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	font-size: 2em;
+    }
+
+	#stuff-1 {
+		margin:auto;
+}
+	#stuff-2{
+		margin:auto;
+		margin-top: 5px;
+	}
+	.hide{
+		display: none;
+	}
+
+	.title{
+	font-size:60px;
+	}
+}
+
+
+@media screen and (max-width: 450px) {
+	.container{
+		position:absolute;
+		padding-right: 1%;
+		padding-left: 1%;
+		width: 97%;
+	}
+
+	.icon {
+	font-size:1.8em; 
+    }
+	
+	.title{
+		font-size: 48px;
+	}
+
+	#stuff-1 {
+		margin:auto;
+		font-size: 1.5em;
+		padding-top: 2%;
+}
+	#stuff-2{
+		margin:auto;
+		margin-top: 5px;
+		font-size: 1.5em;
+		padding-top: 2%;
+	}

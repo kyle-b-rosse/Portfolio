@@ -1,0 +1,175 @@
+/* snowFlurry JS - version 1
+Copyright © 2015 S. William
+Licensed Under MIT */
+
+.single-flake {
+background-color: #fff;
+position: fixed;
+top: 0;
+z-index: 0;
+}
+
+.snow-animate {
+top: 99.5%;
+}
+
+
+.clouds {
+  background: url(Images/snowyAllston.jpg) no-repeat center center fixed;
+  opacity: .8;
+  z-index: 0; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+
+
+}
+
+
+.container {
+  z-index: 1;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  overflow-x: hidden;
+
+  
+
+}
+
+.albumTitle{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  margin-left: 27%;
+  margin-right: 30%;
+  margin-top: 3%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #B71C1C;
+  font-size: 32px;
+  text-shadow: 1px 2px #37474F;
+  font-weight: normal;
+}
+
+.flexbox{
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   margin-right: 25%;
+   margin-left: 25%;
+}
+
+.image{
+  margin: auto;
+  padding: auto;
+  width:300px;
+  height:209px;
+  border-radius: 8px;
+  
+
+
+}
+.empty{
+
+}
+
+.paragraph{
+  overflow: scroll;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(204,204,204, 0.2);
+  font-family: 'Oswald', sans-serif;;
+  font-size: 20px;
+  margin-left: 45px;
+  border-radius: 8px;
+
+
+  
+}
+
+.player,
+.player2 {
+  margin-left: 40%;
+  padding-top: 25px;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+/*    -webkit-border-radius: 10px;*/
+    border-radius: 10px;
+    background: rgba(128,128,128,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4); 
+}
+
+h1 { 
+  font-weight: normal;
+
+}
+
+@media screen and (max-width: 700px) {
+    .albumTitle{
+      margin-left: 2px;
+    }
+    .flexbox{
+      margin: auto;
+    }
+    .paragraph{
+      display: none;
+    }
+
+   .image{
+      width: 250px;
+      height:159px;
+    }
+
+    .player,
+    .player2{
+    margin-left:25%;
+    overflow: hidden;
+    width:50%;
+    }
+  .albumTitle{
+    font-size: 20px;
+    margin-left: 8%;
+  }
+}
+
+  @media screen and (max-width: 450px){
+  .albumTitle{
+    font-size: 18px;
+    margin-left: 3%;
+  }
+}

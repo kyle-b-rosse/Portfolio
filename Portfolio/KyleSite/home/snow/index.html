@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>MADISON BOULDER | Smiling Strange</title>
+
+<style>
+body {
+  background: url(Images/snowyAllston.jpg) no-repeat center center fixed;
+  opacity: .8;
+}
+</style>
+
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/snow-flurry.css" />
+
+</head>
+
+<body>
+
+	<div class = "container">
+
+
+
+		<div class = "albumTitle">
+			<h1 class = "albumName">MADISON BOULDER</h1>
+		</div>
+	
+<div class = "flexbox">
+
+	<div class "image-block">
+		<img class = "image" src="Images/cover2.jpg" alt="Orange Laz">
+	</div>
+
+	<div class = "empty"></div> <!-- Empty object -->
+
+
+	<div class = "paragraph">
+		<p> The Madison Boulder is the largest known erratic in New England, and among the largest in the world. Madison Boulder is a huge granite rock measuring 83 feet in length, 23 feet in height above the ground, 37 feet in width, and weighs upwards of 5,000 tons. The 17-acre site was acquired by the state of N.H. in 1946. In 1970 Madison Boulder was designated a National Natural Landmark by the U.S. Department of the Interior because the enormous erratic, "is an outstanding illustration of the power of an ice sheet to pluck out very large blocks of fractured bedrock and move them substantial distances."</p>
+		<p></p>
+		<p>Recording for the Smiling Strange's third album was done over a period of months on reel to reel recorders, mixed on a home PC. Credit to Evan Rosse, Kyle Rosse, Katherine Sartiano, Alex Vancel and everyone who was at the house that one weekend. </p>
+	</div>
+</div> <!-- End Flexbox -->
+
+		<audio controls class="player">
+ 		 <source src="music/boulderSide1.mp3" type="audio/ogg">
+  		 <source src="music/boulderSide1.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<audio controls class="player2">
+ 		 <source src="music/boulderSide2.mp3" type="audio/ogg">
+  		 <source src="music/boulderSide2.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/snow-flurry.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+$(document).flake({
+maxSize : 5,
+createEvery	: 0.5,
+minSpeed : 7,
+maxSpeed : 12,
+snowColor : "#fff",
+timeout : 0
+})
+})
+
+</script>
+
+</body>
+</html>

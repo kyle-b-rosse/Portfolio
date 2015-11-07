@@ -1,0 +1,59 @@
+html { 
+  background: url(images/RussianSky.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+}
+
+.albumTitle{
+	display: flex;
+	text-align: center;
+	width: 100%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 3%;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FF5722;
+	font-size: 32px;
+	text-shadow: 1px 2px #FFB74D;
+}
+
+
+
+
+.image{
+	width:300px;
+	height:279px;
+	margin:auto;
+	padding: auto;
+	margin-left: 350px
+
+}
+
+
+.paragraph{
+	margin:auto;
+	padding: auto;
+	margin-right: 20%;
+	overflow: hidden;
+	margin-top: 50px;
+	width: 30%;
+	height: 180px;
+	background-color: rgba(204,204,204, 0.2);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px
+}
+
+.player {
+	margin-left: 27%;
+	padding-top: 25px;
+
+}
